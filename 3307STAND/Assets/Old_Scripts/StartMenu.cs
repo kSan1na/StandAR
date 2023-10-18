@@ -22,7 +22,10 @@ public class StartMenu : MonoBehaviour
                 WildMenu.SetActive(true);
                 StartMen.SetActive(false);
                 break;
-
+            case (0):
+                CurrentMenu.SetActive(false);
+                StartMen.SetActive(true);
+                break;
         }
     }
 }
